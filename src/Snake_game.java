@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JFrame;
 public class Snake_game extends JFrame {
-	public static final int WIDTH = 800, HEIGHT = 600, SLEEPTIME = 50, L = 1,R = 2, U = 3, D = 4;
+	public static final int WIDTH = 800, HEIGHT = 600, SLEEPTIME = 40, L = 1,R = 2, U = 3, D = 4;
 	BufferedImage offersetImage= new BufferedImage(WIDTH, HEIGHT,BufferedImage.TYPE_3BYTE_BGR);;
 	Rectangle rect = new Rectangle(20, 40, 15 * 50, 15 * 35);
 	Snake snake;
